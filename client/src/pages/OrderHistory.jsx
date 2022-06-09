@@ -179,31 +179,31 @@ const ProductS = styled.div``;
 const ProductP = styled.div``;
 
 const ProductTotal = styled.div`
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     margin-top: 15px;
   }
 `;
 
 const ProductPaid = styled.div`
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     margin-top: 10px;
   }
 `;
 
 const ProductDelievered = styled.div`
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     margin-top: 10px;
   }
 `;
 
 const ProductDate = styled.div`
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     margin-top: 10px;
   }
 `;
 
 const ProductButton = styled.button`
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     margin-top: 10px;
     border: none;
     background: none;

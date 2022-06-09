@@ -145,10 +145,6 @@ const OrderButton = styled.button`
     background-color: white;
   }
 
-  @media only screen and (max-width: 420px) {
-    padding: 20px;
-    font-size: 1.25rem;
-  }
 `;
 
 const OrderDetail = () => {
