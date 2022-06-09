@@ -181,7 +181,8 @@ const Payment = () => {
       shippingPrice,
       tax,
     };
-    orderAction(dispatch, value, navigate);
+    orderAction(dispatch, value);
+    navigate('/history')
     dispatch(clearCart());
   };
 

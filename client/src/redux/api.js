@@ -126,12 +126,11 @@ export const getTeamDetails = async (dispatch, teamId) => {
   }
 };
 
-export const orderAction = async (dispatch, items, navigate) => {
+export const orderAction = async (dispatch, items) => {
   dispatch(isLoading())
   try{
   const res = await userRequest.post(`/orders`, items)
   dispatch(addOrder(res.data))
-  navigate('/history')
   } catch (error) {
     dispatch(isError());
   }
