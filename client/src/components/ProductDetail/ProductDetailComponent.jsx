@@ -17,7 +17,7 @@ const ProductDetailDiv = styled.div`
   height: 100%;
   
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     flex-direction: column;
     align-items: center;
   }
@@ -29,7 +29,7 @@ const ProductImg = styled.div`
   justify-content: flex-end;
   padding-right: 20px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     justify-content: center;
     padding: 0;
     width: 400px;
@@ -76,7 +76,7 @@ const ProductDescriptionHeader = styled.h3`
   font-family: Inter var;
   font-size: 0.875rem;
   line-height: 1.7142857;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     font-weight: 600;
     font-size: 1.25rem;
   }
@@ -99,7 +99,7 @@ const ProductSizeHeader = styled.h3`
   font-family: Inter var;
   font-weight: 500;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     font-weight: 600;
     font-size: 1.25rem;
   }
@@ -135,7 +135,7 @@ const ADDTOCARTBUTTON = styled.button`
     opacity: 0.25;
   }
 
-   @media only screen and (max-width: 380px) {
+   @media only screen and (max-width: 420px) {
     width: 100%;
   }
 `;
@@ -147,7 +147,7 @@ const Lists = styled.div`
   width: 80%;
   margin-bottom: 10px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 100%;
   }
 `;

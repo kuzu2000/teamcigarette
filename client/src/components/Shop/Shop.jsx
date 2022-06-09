@@ -8,7 +8,7 @@ width: 100%;
 height: 100vh;
 background-color: #000;
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 420px) {
   min-height: 100vh;
 }
 `;
@@ -19,7 +19,7 @@ const ShopTitle = styled.div`
 
   margin-top: 55px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     margin-bottom: 40px;
     margin-top: 45px;
   }
@@ -43,7 +43,7 @@ const ShopPara = styled.p`
   line-height: 22px;
   width: 40%;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 80%;
     margin-bottom: 25px;
   }
@@ -79,7 +79,7 @@ const ProductDetail = styled.div`
   border-radius: 5px;
   width: 70%;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     bottom: 60px;
   }
 `;
@@ -118,7 +118,7 @@ const Product = styled.div`
   height: 500px !important;
   cursor: pointer;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 100%;
   }
 
@@ -149,7 +149,7 @@ const ProductBlock = styled.div`
   border: 1px solid #111111;
   border-radius: 7px 7px 0 0;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     bottom: 80px;
   }
 `;

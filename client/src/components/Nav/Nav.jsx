@@ -53,7 +53,7 @@ const UnorderedList = styled.ul`
   align-items: center;
   justify-content: center;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     display: none;
   }
 `;
@@ -76,7 +76,7 @@ const ResponsiveList = styled.ul`
   justify-content: center;
   display: none;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     display: block;
     display: flex;
     align-items: center;
@@ -158,7 +158,7 @@ const DropDownAccount = styled.div`
 
 const SideBar = styled.div`
   display: none;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     display: block;
     width: 100vw;
     height: 100vh;
@@ -188,7 +188,7 @@ const Close = styled.div`
 `;
 
 const SideBarLists = styled.ul`
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     list-style-type: none;
     margin: 0;
     padding: 0 10px;
@@ -196,7 +196,7 @@ const SideBarLists = styled.ul`
 `;
 
 const SideBarList = styled.li`
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 100%;
     margin: 0;
     padding: 12px 0;
@@ -211,7 +211,7 @@ const SideBarList = styled.li`
 const ULAccount = styled.ul`
   display: block;
   list-style: none;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     display: block;
   }
 `;

@@ -49,7 +49,7 @@ const Label = styled.label`
   font-weight: 600;
   font-size: 12px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     font-size: 1rem;
     letter-spacing: 3px;
     font-weight: 300;
@@ -65,7 +65,7 @@ const Input = styled.input`
   width: 1180px;
   color: #fff;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 100%;
   }
 `;

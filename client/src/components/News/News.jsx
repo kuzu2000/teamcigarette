@@ -11,7 +11,7 @@ const Container = styled.div`
   background: rgb(0, 0, 0);
   position: relative;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     min-height: 100vh;
   }
 
@@ -23,7 +23,7 @@ const NewsHeader = styled.h1`
   text-align: center;
   font-family: Barlow Condensed,sans-serif;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     font-size: 2rem;
   }
 `;
@@ -36,7 +36,7 @@ flex-wrap: wrap;
 width:90%;
 margin: 0 auto;
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 420px) {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -145,7 +145,7 @@ const SeeMore = styled.div`
     background-color: rgb(248, 248, 248);
   }
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 200px;
     font-size: 1rem;
   }

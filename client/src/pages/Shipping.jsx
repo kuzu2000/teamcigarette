@@ -22,7 +22,7 @@ const FormContainer = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 90%;
   }
 `;

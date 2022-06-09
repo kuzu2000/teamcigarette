@@ -23,7 +23,7 @@ const TeamHeader = styled.h1`
   background-color: rgb(0, 0, 0);
   color: rgb(248, 248, 248);
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     margin-bottom: 40px;
   }
 `;
@@ -48,7 +48,7 @@ width: 400px;
     filter: brightness(70%);
   }
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 200px;
     height: 150px;
   }

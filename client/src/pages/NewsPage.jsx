@@ -38,7 +38,7 @@ const NewsHeader = styled.h1`
   text-align: center;
   font-family: Barlow Condensed, sans-serif;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     font-size: 2.5rem;
     padding: 10px;
   }
@@ -52,7 +52,7 @@ const NewsList = styled.div`
   width:90%;
   margin: 0 auto;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     display: flex;
     flex-direction: column;
     width: 100%;

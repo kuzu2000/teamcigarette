@@ -18,7 +18,7 @@ const ProductS = styled.div`
   max-width: 1180px;
   font-family: Roboto, sans-serif;
   margin-top: 40px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     margin-top: 60px;
   }
 `;
@@ -43,7 +43,7 @@ const ProductDetail = styled.div`
   border-radius: 5px;
   width: 70%;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     bottom: -6px;
   }
 
@@ -91,7 +91,7 @@ const Product = styled.div`
   cursor: pointer;
 text-align: center;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 100%;
     height: 400px !important;
     margin-bottom: 45px;
@@ -129,7 +129,7 @@ const ProductBlock = styled.div`
   border: 1px solid #111111;
   border-radius: 7px 7px 0 0;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     bottom: 15px;
     max-height: 300px;
     text-align: center;
@@ -153,7 +153,7 @@ const ProductInfo = styled.div`
   font-family: Barlow Condensed, sans-serif;
   border-radius: 0 0 7px 7px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     bottom: 80px;
     text-align: center;
     padding: 0;

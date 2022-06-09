@@ -31,7 +31,7 @@ const PlayerBlock = styled.div`
   background-color: #111;
   border-radius: 10px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 95%;
   }
 `;
@@ -194,7 +194,7 @@ const TeamPageList = styled.ul`
   list-style-type: none;
   margin: 0;
   padding: 0;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     flex-direction: column;
   }
 `;
@@ -208,7 +208,7 @@ const RosterBlock = styled.li`
   height: 500px;
   cursor: pointer;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -251,7 +251,7 @@ const RosterBlockImg = styled.img`
     height: 340px;
   }
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width:420px) {
     height: 250px;
 
     &:hover {
@@ -268,7 +268,7 @@ const RosterBlockInfo = styled.div`
   width: 100%;
   text-align: center;
 
-   @media only screen and (max-width: 380px) {
+   @media only screen and (max-width: 420px) {
     bottom: 60px;
   }
 `;
@@ -296,7 +296,7 @@ const TeamPageHeader = styled.div`
   margin: 0;
   padding: 0;
   height: 800px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
 
   }
 `;

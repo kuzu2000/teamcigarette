@@ -7,7 +7,7 @@ const Container = styled.div`
   padding: 1rem 3rem;
   width: 100vw;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     flex-direction: column;
     padding: 5px;
   }
@@ -32,7 +32,7 @@ const FeaturedProducts = styled.div`
     background-color: rgb(34, 34, 34);
   }
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 100%;
     margin: 0;
     margin-top: 10px;

@@ -64,7 +64,7 @@ article.nextSlide {
   transform: translateX(100%);
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 420px) {
   .section-center {
     height: 400px;
   }

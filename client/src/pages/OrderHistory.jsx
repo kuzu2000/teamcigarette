@@ -30,7 +30,7 @@ const ProductList = styled.div`
   display: flex;
   align-items: center;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     display: none;
   }
 `;
@@ -116,7 +116,7 @@ const ProductResponsiveContainer = styled.div`
   display: none;
   width: 100vw;
   min-height: 100vh;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     display: block;
   }
 `;
@@ -126,7 +126,7 @@ const ProductResponsiveLists = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -135,7 +135,7 @@ const ProductResponsiveLists = styled.div`
 `;
 
 const ProductResponsiveList = styled.div`
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     display: flex;
     flex-direction: column;
     margin-bottom: 25px;
@@ -149,7 +149,7 @@ const ProductResponsiveList = styled.div`
 `;
 
 const ProductId = styled.div`
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     margin-bottom: 15px;
   }
 `;
@@ -160,7 +160,7 @@ const ProductItem = styled.div`
 `;
 
 const ProductImage = styled.img`
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 159px;
     height: 159px;
   }

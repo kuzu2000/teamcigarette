@@ -30,7 +30,7 @@ const Bottom = styled.div`
   width: 100%;
   height: 100%;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     flex-direction: column;
   }
 `;
@@ -47,7 +47,7 @@ const Product = styled.div`
   margin-bottom: 10px;
   position: relative;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     flex-direction: column;
   }
 `;
@@ -58,7 +58,7 @@ const Item = styled.div`
   margin-left: 20px;
   padding: 10px 0;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     flex-direction: row;
   }
 `;
@@ -91,7 +91,7 @@ const DeleteButton = styled.button`
     color: rgb(255, 0, 0);
   }
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     margin-top: 10px;
   }
 `;
@@ -110,7 +110,7 @@ const ProductAmountContainer = styled.div`
   align-items: center;
   margin-bottom: 20px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     margin-bottom: 0px;
   }
 `;
@@ -136,7 +136,7 @@ const ProductQtyButton = styled.button`
     background-color: rgb(15, 15, 15);
   }
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     font-size: 2rem;
     height: 60px;
     width: 60px;

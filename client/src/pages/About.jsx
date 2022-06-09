@@ -23,7 +23,7 @@ const NewsContainer = styled.div`
   margin: 40px auto;
   width: 80%;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 100%;
   }
 `;
@@ -36,7 +36,7 @@ const NewsTitle = styled.div`
   text-transform: uppercase;
   font-family: Barlow Condensed, sans-serif;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     font-size: 2.25rem;
     width: 90%;
   }
@@ -52,7 +52,7 @@ const NewsAbout = styled.div`
   padding: 10px 25px;
   border-radius: 5px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     font-size: 0.75rem;
   }
 `;
@@ -65,7 +65,7 @@ const NewsDescription = styled.div`
   font-size: 1.25rem;
   text-align: center;
   font-family: Roboto, sans-serif;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     line-height: 175%;
     font-size: 0.85rem;
     letter-spacing: 1px;
@@ -80,7 +80,7 @@ const CEOHeader = styled.div`
   font-family: Barlow Condensed, sans-serif;
   margin-bottom: 20px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     font-size: 2.25rem;
   }
 `;

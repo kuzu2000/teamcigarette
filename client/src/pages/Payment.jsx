@@ -15,7 +15,7 @@ const Container = styled.div`
   font-family: sans-serif;
   padding: 40px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     flex-direction: column;
     padding: 5px;
   }
@@ -57,7 +57,7 @@ const OrderItems = styled.div`
   justify-content: space-between;
   margin-bottom: 10px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     margin-bottom: 15px;
   }
   
@@ -82,7 +82,7 @@ const OrderSummary = styled.div`
   flex: 1;
   padding: 20px;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     width: 100%;
     padding: 0;
   }
@@ -116,7 +116,7 @@ display: flex;
   justify-content: space-between;
   width: 100%;
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 420px) {
     flex-direction: column;
     justify-contnet: flex-start;
   }
