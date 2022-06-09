@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const stripe = require('stripe')(
-  process.env.STRIPE_KEY||'sk_test_51Ku0eaKNsPpoql9XQjPrZHprA1NhJcqNm5COjb4DhHaZjE7CQLQJzWWTR2zwuufqiT45gh8AMiWen3ZbEomlTbDh00AN2v2hmf'
+  'sk_test_51Ku0eaKNsPpoql9XQjPrZHprA1NhJcqNm5COjb4DhHaZjE7CQLQJzWWTR2zwuufqiT45gh8AMiWen3ZbEomlTbDh00AN2v2hmf'
 );
 const {
   verifyToken,
